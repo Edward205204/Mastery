@@ -1,0 +1,28 @@
+.categories {
+  background: #f9f9f9;
+  padding: 10rem 0;
+}
+
+.categories .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.category-item {
+  flex: 1 1 calc(25% - 1rem);
+  background: #051d4d;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.category-item:hover {
+  background: #3a66d7;
+}

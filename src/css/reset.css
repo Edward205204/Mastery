@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", "sans-serif";
+  font-weight: 400;
+  margin: 0;
+}
+
+* {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+* {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.col-pre {
+  color: #1c1e2e;
+}
+
+.col-gray {
+  color: #7a7a7a;
+}

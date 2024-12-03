@@ -1,0 +1,34 @@
+header {
+  padding-top: 10px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+header .logo {
+  margin-left: 1rem;
+}
+
+header li {
+  display: inline;
+}
+
+header ul a {
+  padding: 1rem;
+}
