@@ -1,0 +1,57 @@
+footer {
+  padding: 106px 0;
+  background-color: #002045;
+}
+
+footer .container {
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #585757;
+  position: relative;
+}
+
+.footer__left {
+  width: 35%;
+}
+
+.footer__right {
+  width: 60%;
+  display: flex;
+}
+
+.footer__heading {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer__left .desc {
+  line-height: 1.8;
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+.column {
+  width: 160px;
+  margin-right: 110px;
+}
+
+.column__desc {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+}
+
+footer ul li {
+  margin-bottom: 2rem;
+}
+
+.footer__desc {
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
