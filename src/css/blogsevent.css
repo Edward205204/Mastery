@@ -71,23 +71,13 @@
   margin-left: auto;
 }
 
-/* .calendar {
-  display: inline-block;
-  background-color: seagreen;
-}
-
-.calendar-top {
-} */
-
-/* Calendar Style */
-/* Calendar Style */
 .calendar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 8rem; /* Đảm bảo chiều rộng của cả calendar là cố định */
-  height: 8rem; /* Tổng chiều cao của calendar */
+  width: 8rem;
+  height: 8rem;
   border-radius: 8px;
   text-align: center;
   color: white;
@@ -95,22 +85,28 @@
 
 .calendar__top,
 .calendar__bottom {
-  width: 100%;
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem 2rem;
 }
 
 .calendar__top {
+  display: flex;
+  flex-direction: column;
   background-color: #fcc600;
-  height: 50%;
+  height: 700%;
   font-size: 2.4rem;
   font-weight: bold;
+  width: 100%;
 }
 
 .calendar .calender__bottom {
   background-color: #001f3d;
-  color: white;
   height: 50%;
+  color: white;
   font-size: 1.6rem;
+  width: 100%;
+  padding: 0.5rem 0;
 }
